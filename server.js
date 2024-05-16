@@ -13,4 +13,6 @@ const userRouter = require("./routes/users");
 
 app.use("/users", userRouter);
 
+// Midelaware runs from top to bottom.
+
 app.listen(3000);
